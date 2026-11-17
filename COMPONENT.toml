@@ -3,12 +3,12 @@ name = "SigmaOS-service-files"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "service-files component"
+description = "Service files component for SigmaOS"
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
